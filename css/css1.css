@@ -1,0 +1,14 @@
+button{
+	display: block;
+	padding: 2px;
+	margin: 5px;
+	background: #c97dd8;
+}
+a{
+	text-decoration: none;
+	color: #ffffff;
+}
+h3{
+	text-align: center;
+	color: #d693a3;
+}
