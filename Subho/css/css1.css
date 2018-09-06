@@ -1,0 +1,16 @@
+table{
+	border: 5px; padding-left: 250px;padding-top: 10px; 
+}
+
+th{
+text-align: left;font-family: 'brush script MT', cursive; font-size: 250%;
+}
+body{
+	background-image: 
+	url(https://subhrendu1987.github.io/PracticeHTML/image/wood2.jpg);
+	background-size: cover;
+}
+tr{
+	font-weight: bold; font-family: Century Gothic, sans-serif; font-size: 100%;
+	
+}
