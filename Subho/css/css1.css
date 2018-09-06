@@ -1,14 +1,19 @@
 table{
-	border: 5px; padding-left: 200px;padding-top: 10px; width: 80%;
+	border: 5px; 
+	padding-left: 200px;
+	padding-top: 10px;
+	width: 80%;
 
 }
 
 th{
-text-align: left;font-family: 'brush script MT', cursive; font-size: 250%;
+text-align: left;
+font-family: 'brush script MT', cursive; 
+font-size: 250%;
 }
 body{
 	background-image: 
-	url();
+	url(https://subhrendu1987.github.io/Background/bg_lightwoodfloor.jpg);
 	background-size: cover;
 }
 tr{
@@ -18,3 +23,35 @@ tr{
 #logo{
 	border-radius: 60px;
 }
+a{
+	text-decoration: none;  font-weight: bold; font-family: Century Gothic, sans-serif; 
+	font-size: 100%;  color: #ffffff;  padding-right: 80px; 
+
+}
+nav{
+	padding-top: 25px;  border-radius: 50px;  border-width: 50px;  text-align: center;
+
+}
+a:hover {
+    color: #604f9e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
