@@ -1,7 +1,7 @@
 table{
 	border: 5px; 
 	padding-left: 200px;
-	padding-top: 10px;
+	padding-top: 5px;
 	width: 80%;
 
 }
@@ -24,9 +24,12 @@ tr{
 	border-radius: 60px;
 }
 a{
-	text-decoration: none;  font-weight: bold; font-family: Century Gothic, sans-serif; 
-	font-size: 100%;  color: #ffffff;  padding-right: 80px; 
-
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Century Gothic, sans-serif;
+	font-size: 100%;
+	color: #ffffff;
+    padding-right: 80px;
 }
 nav{
 	padding-top: 25px;  border-radius: 50px;  border-width: 50px;  text-align: center;
@@ -36,10 +39,12 @@ a:hover {
     color: #604f9e;
 }
 
-
-
-
-
+#dp{
+border-radius: 80px;	
+}
+#space{
+	padding-left: 50px;
+}
 
 
 
