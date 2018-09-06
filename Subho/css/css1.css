@@ -1,5 +1,6 @@
 table{
-	border: 5px; padding-left: 250px;padding-top: 10px; 
+	border: 5px; padding-left: 200px;padding-top: 10px; width: 80%;
+
 }
 
 th{
@@ -7,10 +8,13 @@ text-align: left;font-family: 'brush script MT', cursive; font-size: 250%;
 }
 body{
 	background-image: 
-	url(https://subhrendu1987.github.io/PracticeHTML/image/wood2.jpg);
+	url();
 	background-size: cover;
 }
 tr{
 	font-weight: bold; font-family: Century Gothic, sans-serif; font-size: 100%;
-	
+}
+
+#logo{
+	border-radius: 60px;
 }
