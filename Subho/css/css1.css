@@ -3,30 +3,35 @@ table{
 	padding-left: 200px;
 	padding-top: 5px;
 	width: 80%;
+	text-align:center;
 
 }
+/*------------------------------------------*/
 #main{
 padding-left: 5px; padding-top: 8px;
 width: 100%;
 }
+/*------------------------------------------*/
 th{
 text-align: left;
 font-family: 'brush script MT', cursive; 
 font-size: 250%;
 }
-
+/*------------------------------------------*/
 body{
 	background-image: 
 	url(https://subhrendu1987.github.io/Background/bg_lightwoodfloor.jpg);
 	background-size: cover;
 }
+/*------------------------------------------*/
 tr{
 	font-weight: bold; font-family: Century Gothic, sans-serif; font-size: 100%;
 }
-
+/*------------------------------------------*/
 #logo{
 	border-radius: 60px;
 }
+/*------------------------------------------*/
 a{
 	text-decoration: none;
 	font-weight: bold;
@@ -35,25 +40,33 @@ a{
 	color: #ffffff;
     padding-right: 80px;
 }
+/*------------------------------------------*/
 a:hover {
     color: #604f9e;
 }
-
-#dp{border-radius: 60px; max-height: 360px;}
-#space{
-	padding-left: 25px;
+/*------------------------------------------*/
+#dp{
+	border-radius: 60px;
+	max-height: 360px;
 }
+/*------------------------------------------*/
+#space{
+	padding-left: 5%;
+}
+/*------------------------------------------*/
 .col{
 	background-color: #000000;
 }
+/*------------------------------------------*/
 .col2{
 	color: #000000;
-	column-width: 120px;
-	padding left: 35px;
+	column-width: 15%;
+	padding left: 5%;
 	vertical-align: top;
-	background-image: 
-	url(https://subhrendu1987.github.io/Background/bg_lightwoodfloor.jpg);
+	text-align:left;
 }
+/*------------------------------------------*/
 #col3{
-	padding-left: 35px;
+	padding-left: 5%;
 }
+/*------------------------------------------*/
