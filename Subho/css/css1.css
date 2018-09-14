@@ -18,7 +18,7 @@ font-size: 250%;
 body{
 	background-image: 
 	url(https://subhrendu1987.github.io/Background/bg_lightwoodfloor.jpg);
-	
+	background-size: cover;
 }
 tr{
 	font-weight: bold; font-family: Century Gothic, sans-serif; font-size: 100%;
