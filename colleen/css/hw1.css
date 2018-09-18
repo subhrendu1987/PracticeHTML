@@ -1,30 +1,69 @@
+/* Regarding best viewed on: I work on my laptop.*/
 header{
-	background-color: #9bbdf2;
+	background-color: #555666;
+	background-image: url("../css/flywheel.jpg");
+	padding-bottom: 120px;
+	background-size: cover;
 }
 h1{
 	text-align: center;
-	color: #d3a0d2;
+	color: #3cc494;
 	text-transform: uppercase;
+	font-size: 30px;
 }
 h2
 {
-	color: #ba75b2;
-	text-transform: uppercase;
-	
+	color: #1c5e47;	
 }
-img{
-	display: none;
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+nav{
+	text-align: center;
 }
-section{
-	background-color: #e88698;
+nav a{
+	border-radius: 100px;
+	text-decoration: none;
+	background-color: #ffffff;
+	text-align: center;
+	margin-right: 80px;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+nav a:hover{
+	background-color: rgba(225, 225, 225, 3);
 }
 a{
-	color: #8d63b5;
-	background-color: #dbba95;
+	color: #840e16;
+	background-color: #1cf347;
+	font-size: 20px;
 }
-
-
-
-
-
-
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+main{
+	display: inline;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+.active{
+	background-color: #3cc494;
+	color: #ffffff;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+.left img{
+	border-style: solid;
+	width: 180px;
+	border-color: #000000;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.left{
+	background-color: #3cc494;
+	width: 250px;
+	float: left;
+	overflow: auto;
+	}
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
