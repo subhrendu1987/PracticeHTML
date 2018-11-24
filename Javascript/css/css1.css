@@ -1,0 +1,23 @@
+button{
+	background-color: #824f93;
+	width: 70px;
+	text-align: center;
+}
+p{
+	border: solid;
+	width: 30%;
+    text-align: center;
+}
+#change{
+	background-color:#39598e;
+}
+.closed{
+	display: none;
+}
+.open{
+	display: block;
+}
+img{
+	width: 200px;
+	border-radius: 200px;
+}
