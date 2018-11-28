@@ -1,15 +1,18 @@
+body{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: #ffe4c4;
+}
 button{
-	background-color: #824f93;
-	width: 70px;
+	background-color: #a85256;
+	width: 20%;
 	text-align: center;
+	border-radius: 30px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 p{
-	border: solid;
-	width: 30%;
-    text-align: center;
-}
-#change{
-	background-color:#39598e;
+	width: 35%;
+	color: #248c69;
+	border-radius: 30px;
 }
 .closed{
 	display: none;
@@ -20,4 +23,19 @@ p{
 img{
 	width: 200px;
 	border-radius: 200px;
+	display: block;
+}
+#message{
+	border-radius: 25px;
+	border: solid;
+	width: 40%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+#a{
+	display: inline-block;
+}
+#time{
+	margin-bottom: 15px;
 }

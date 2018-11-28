@@ -7,41 +7,40 @@
 </head>
 
 <body>
-	
 	<script>
 	alert("Hi Subho")
 	</script>
+	<p>
+		Please follow the buttons consecutively.
+	</p>
 	<script src="js/js1.js"></script>
-	<button onclick="document.getElementById('change').innerHTML = 'I am following this fine.';">Hi</button>
-	<button onclick="document.getElementById('change').innerHTML = 'I hope there wont come another stupid break.' ;">Hello</button>
+	<button onclick="document.getElementById('change').innerHTML = 'I am feeling pretty good today';">Hello there...</button>
+	<button onclick="document.getElementById('change').innerHTML = 'It is a bright day outside';">Hi...</button>
+	<button onclick="document.getElementById('change').innerHTML = 'This code should change';">Reset</button>
 	<p>
 		This code shouldn't change.
 	</p>
-	<p id="change">
-		This will change.
-	</p>
-	<p>
-		This shouldn't change either.
-	</p>
-	<button type="button" onclick="CloseMe()">Poof!</button>
-	<button type="button" onclick="OpenMe()">Tada!</button>
-	<p id="demo">
-		Something is going to happen to this
-	</p>
-	<!---
+	<p id="change"> This code should change</p>
 
-	<img src="https://i.pinimg.com/originals/3b/76/74/3b7674175e7f2575f9182a107e28df4d.jpg" alt= "Because...Why not?">
-	<div>
-		I still don't know what's going on.
-	</div>
-	<img src="http://www.buzzhunt.co.uk/wp-content/2013/08/Taco-suit-2.jpg" alt="Winter is for everyone." id= "message" onclick="SP(this)">
-	<div  onclick="SP(this)">
-		Aaaaaa....will this work?
+	<button id="time" onclick="date()">Display time</button>
+
+
+	<img src="http://images6.fanpop.com/image/photos/34100000/Brave-brave-34108077-442-500.jpg" alt="I'll put a spell on you" onmouseover="SP(this)" onmouseleave="SP2(this)"    id="demo">
+
+	<button onclick="CloseMe()">Poof!</button>
+	<button onclick="OpenMe()">Tada!</button>
+	
+
+	<div id = "message">
+		Hover over an image to display the alt text.
 	</div>
 
+	<img src="https://wallpaperaccess.com/full/5242.jpg" alt="Tiny cute egg plushies."  onmouseover="SP(this)" onmouseleave="SP2(this)" id="a">
 
+	<img src="https://i.pinimg.com/originals/3b/76/74/3b7674175e7f2575f9182a107e28df4d.jpg" alt= "A tortoise Santa...Why not?" onmouseover="SP(this)" onmouseleave="SP2(this)" id="a">
 
-
+	<img src="http://www.buzzhunt.co.uk/wp-content/2013/08/Taco-suit-2.jpg" alt="Winter is for everyone." onmouseover="SP(this)" onmouseleave="SP2(this)" id="a">
+	
 
 
 
