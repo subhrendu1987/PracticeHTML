@@ -1,0 +1,68 @@
+body{
+	background-image: 
+	url(https://subhrendu1987.github.io/Background/bg_lightwoodfloor.jpg);
+	background-size: cover;
+	font-weight: bold;
+	font-family: Century Gothic, sans-serif;
+	font-size: 100%;
+}
+table{
+	border: 5px; 
+	padding-left: 200px;
+	padding-top: 5px;
+	width: 80%;
+	text-align:center;
+
+}
+#logo{
+	border-radius: 60px;
+}
+th{
+text-align: left;
+font-family: 'brush script MT', cursive; 
+font-size: 250%;
+}
+/* nameplate css ends; includes background image and font description for the body*/
+nav{
+	padding-top: 10px;
+	text-align:center;
+}
+nav a{
+	display: inline-block;
+	width: 20%;
+    background-color: #000000;
+    text-align: center;
+}
+a{
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Century Gothic, sans-serif;
+	font-size: 100%;
+	color: #ffffff;
+   
+}
+/*css for the navigation bar with the home button and links for external pages ends*/
+#dp{
+	border-radius: 60px;
+	max-height: 360px;
+}
+/*Subhrendu's image css ends*/
+/* css specific to publications.html */
+li{
+	border-width: 1px;
+	border-bottom: solid;
+}
+q{
+	color: #ffffff;
+	font-style: italic;
+}
+.name{
+	color: #ffffff;
+	font-weight: bold;
+}
+.date{
+	color: pink;
+}
+.pdf{
+	width: 20px;
+}
