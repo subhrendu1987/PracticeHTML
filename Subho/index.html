@@ -49,6 +49,8 @@ body {
   color: #ffffff;
   padding: 10px 15px;
   border: none;
+  width: 100%;
+  text-align: left;
 }
 
 .openbtn:hover {
@@ -58,12 +60,15 @@ body {
 #main {
   transition: margin-left .5s;
   padding: 16px;
+  /*
   background-color: #111;
+  */
 
 }
+/*
 #main a{
   padding-right: 10px;
-}
+}*/
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -83,16 +88,40 @@ body {
 </div>
 
 <div id="main">
-  <button class="openbtn" onclick="openNav()">&#9776;</button> 
+  <button class="openbtn" onclick="openNav()">&#9776;</button>
+  <!---
   <a href="#">Facebook</a>
   <a href="#">Google+</a>
   <a href="#">DBLP</a>
-  <a href="#">Google Scholar</a>
+  <a href="#">Google Scholar</a> ---> </div>
+  <table>
+    <tr>
+      <td>
+  <img src="https://subhrendu1987.github.io/PracticeHTML/Subho/imgs/Subhrendu.jpg" style="padding-top: 25px;">
+</td>
+<td>
+  <h2>Subhrendu Chattopadhyay</h2>
+  Lorem Ipsum<br>
+  Lorem Ipsum<br>
+  Lorem Ipsum<br>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at dui ac metus ultricies consectetur. Morbi elementum egestas rutrum. Proin convallis mauris nulla, ac placerat urna mollis ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras a tortor in nulla varius elementum. Nam efficitur purus vel justo ullamcorper pulvinar. Quisque non maximus eros, in iaculis dui. Sed id neque quis elit consequat ullamcorper. Cras scelerisque massa et euismod molestie. Aenean in risus malesuada, ultrices velit in, imperdiet felis. Sed elementum congue nisl, at vestibulum enim porttitor id. Curabitur eget ornare tortor, sit amet molestie augue. In placerat tellus erat, non hendrerit est luctus eu. Nullam interdum aliquet turpis a mattis. Nunc mollis dolor et gravida convallis.</p></td></tr>
+</table>
+<table id="footer">
+  <tr>
+    <th>Social</th>
+    <th>Publishers</th>
+    <th>IITG</th>
+    <th>Research</th>
+    <th>People</th>
+    <th>Extra</th>
+    <th>Tools</th>
+  </tr>
+</table>
 </div>
 
 <script>
 function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("mySidebar").style.width = "100%";
   document.getElementById("main").style.marginLeft = "250px";
 }
 

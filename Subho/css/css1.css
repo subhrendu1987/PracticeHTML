@@ -1,4 +1,16 @@
 a{
   text-decoration: none;
-  color: #ffffff;
+}
+table{
+  padding-left: 50px;
+}
+table td{
+  padding-left: 25px;
+}
+
+#footer{
+  padding-top: 50px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
