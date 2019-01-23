@@ -1,16 +1,24 @@
 a{
   text-decoration: none;
 }
+#main a{
+  color: #ffffff;
+  float: right;
+  padding-right: 50px;
+  text-align: justify;
+}
 table{
   padding-left: 50px;
 }
 table td{
   padding-left: 25px;
 }
-
 #footer{
   padding-top: 50px;
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+}
+img{
+  visibility: hidden;
 }
