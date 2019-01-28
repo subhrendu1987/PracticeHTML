@@ -29,7 +29,7 @@ body {
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -43,7 +43,7 @@ body {
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 36px;
+  
   margin-left: 50px;
 }
 
@@ -86,11 +86,26 @@ body {
 <body>
 
 <div id="mySidebar" class="sidebar">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
-  <a href="#"><i class="fa fa-home"></i>   Home</a>
-  <a href="#"><i class='fas fa-graduation-cap'></i>   Academics</a>
-  <a href="#"><i class='fas fa-book-open'></i>   Publication</a>
-  <a href="#"><i class='fas fa-address-card'></i>   Contact</a>
+
+
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"  style="font-size: 80px;">X</a>
+  <table id="full">
+
+    <tr>
+      <td>
+  <a href="#"><i class="fa fa-home"></i>   Home</a></td>
+  <td>
+  <a href="#"><i class='fas fa-graduation-cap'></i>   Academics</a></td></tr>
+  <tr><td>
+  <a href="#"><i class='fas fa-book-open'></i>   Publication</a></td><td>
+  <a href="#"><i class='fas fa-address-card'></i>   Contact</a></td></tr>
+
+</table>
+
+
+
+
 </div>
 
 <div id="main">

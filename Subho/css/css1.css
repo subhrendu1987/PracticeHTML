@@ -69,6 +69,15 @@ table td{
   color: #000000;
   
 }
+#full td{
+  height:250px;
+  text-align: left;
 
 
+}
+#full{
+  width: 100%;
+  table-layout: fixed;
+  font-size: 80px;
+}
 
