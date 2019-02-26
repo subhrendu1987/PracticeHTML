@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/css1.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!---FontAwesome4--->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"><!---FontAwesome5--->
+
+<!------------------------->
+
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  text-align: left;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .6s;
+  padding: 16px;
+  background-color: #111;
+}
+/*
+#main a{
+  padding-right: 10px;
+}*/
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+/*.................................*/
+/* Style the tab */
+
+</style>
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar">
+
+
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"  style="font-size: 25px;">X</a>
+  <table id="full">
+
+    <tr>
+      
+  <a href="#"><i class="fa fa-home"></i>Home</a>
+
+  <a href="#"><i class='fas fa-graduation-cap'></i>Academics</a>
+  
+  <a href="#"><i class='fas fa-book-open'></i>Publication</a>
+  <a href="#"><i class='fas fa-address-card'></i>Contact</a></tr>
+  </table>
+
+
+
+
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776;</button>
+</div>
+
+  <table id="margin">
+    <tr>
+      <td>
+  <img src="https://subhrendu1987.github.io/PracticeHTML/Subho/imgs/Subhrendu.jpg" style="padding-top: 25px;">
+</td>
+<td>
+  <h2>Subhrendu Chattopadhyay</h2>
+  Lorem Ipsum<br>
+  Lorem Ipsum<br>
+  Lorem Ipsum<br>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at dui ac metus ultricies consectetur. Morbi elementum egestas rutrum. Proin convallis mauris nulla, ac placerat urna mollis ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras a tortor in nulla varius elementum. Nam efficitur purus vel justo ullamcorper pulvinar. Quisque non maximus eros, in iaculis dui. Sed id neque quis elit consequat ullamcorper. Cras scelerisque massa et euismod molestie. Aenean in risus malesuada, ultrices velit in, imperdiet felis. Sed elementum congue nisl, at vestibulum enim porttitor id. Curabitur eget ornare tortor, sit amet molestie augue. In placerat tellus erat, non hendrerit est luctus eu. Nullam interdum aliquet turpis a mattis. Nunc mollis dolor et gravida convallis.</p></td></tr>
+</table>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+ }
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<!------------------------>
+<!------------------------------------------------------------------------->
+<table  id="contenttable">
+<tr>
+  <td>
+    <h2>Academic Qualifications</h2>
+    <ul>
+      <li>Research Scholar in Dept. of Computer Science and Engineering, Indian Institute of Technology, Guwahati (July 2014 - Present></li><p>
+      <li>Master of Technology in Dept. of Computer Science and Engineering with CGPA: 8.81/10 from Indian Institute of Technology, Guwahati (June 2012 - July 2014)</li><p>
+      <li>Bachelor of Technology in Computer Science and Engineering with CGPA: 8.04/10 from B.P Poddar Institute of Management and Technology, WestBengal University of Technology (July 2006 - June 2010)</li><p>
+
+      <li>Higher Secondary (10+2) with 77.5% from Beldanga C.R.G.S High School, under West Bengal Council of Higher Secondary Examination (May, 2006)</li><p>
+
+      <li>Madhyamik (10) with 81.5% from Sargachhi Ramakarishna Mission High School, under West Bengal Board of Secondary Education (April, 2003)</li>
+      </ul><p>
+    <!--h2>Achievements</h2>
+      <ul>
+      <li>Receipient of TCS Research Fellowship, Jan-2015 (four years) from Tata Consultency Services</li>
+      <li> Best paper Awards in IEEE ANTS 2013, COMSNET 2016
+      </ul><p-->
+    <h2>Teaching Assistance</h2>
+      <ul>
+      <li>Teaching Assistant in IIT, Guwahati For Network Lab (CS349) (2017 Winter)</li><p>
+      <li>Teaching Assistant in IIT, Guwahati For Data Communication (CS343) (2016 Monsoon)</li><p>
+      <li>Teaching Assistant in IIT, Guwahati For Wireless Networks (CS551) (2015 Monsoon, 2017 Monsoon)</li><p>
+      <li>Teaching Assistant in IIT, Guwahati For Systems Lab (CS558) (2014 Winter,2015 Winter,2016 Winter,2018 Winter)</li><p>
+      <li>Teaching Assistant in IIT, Guwahati For Programming Lab (CS513) (2013 Monsoon, 2014 Monsoon)</li><p>
+      <li>Teaching Assistant in IIT, Guwahati For Computing Laboratory (CS110) (2013 Winter)</li><p>
+      <li>Teaching Assistant in IIT, Guwahati For Discrete Mathematics (CS202) (2012 Monsoon)</li><p>
+      </ul>
+      <h2>Voluntary Services</h2>
+      <ul>
+      <li>Conference Reviewer: IEEE ANTS 2017, IEEE ANTS 2015,IEEE ANTS 2014.</li><p>
+      <li>Conference Reviewer: IEEE ICC 2017.</li><p>
+      <li>Conference Reviewer: NCC 2017.</li><p>
+      </ul>
+    <h2>Professional Experience</h2>
+      <ul>
+      <li>Programmer Analyst Trainee in Cognizant Technology Solution India pvt. Ltd. (July 2010 - July 2011)</li><p>
+      </ul>
+  </td>
+</tr>
+</table>
+     
+</body>
+</html> 
