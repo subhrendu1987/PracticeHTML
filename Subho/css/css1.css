@@ -38,6 +38,9 @@ body{
   .sidenav a {font-size: 18px;}
 }
 /*........................*/
+#img-self{
+  border-radius: 25px;
+}
 h1{
   font-size: 25px;
 }
