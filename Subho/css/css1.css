@@ -79,9 +79,9 @@ q{
   font-weight: bold;
   font-size: 20px;
 }
-#social{
-  width: 70%;
-  border: solid;
+
+.fa-file-pdf:before {
+    font-size: 30px;
 }
 
 
