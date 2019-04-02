@@ -59,6 +59,11 @@ p{
 }
 
 
-iframe{
-border: none;
+
+
+#extLinks
+{
+width: 70%;
+border: solid;
+
 }
