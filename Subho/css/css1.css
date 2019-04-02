@@ -59,14 +59,25 @@ p{
 }
 
 
-
+iframe{
+border: none;
+width: 100%;
+}
 
 #extLinks
 {
+width: 70%;
 border: solid;
-table-layout: fixed;
-width: 80%;
+
 }
-footer{
-  padding-left: 250px;
+#collab a{
+  color: #C80000;
+  font-weight: bold;
 }
+q{
+  color: #24874f;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
