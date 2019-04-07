@@ -9,7 +9,6 @@ h1{
   color:  #932954;
 }
 h2{
-  color:  #932954;
   font-size: 40px;
 }
 p{
@@ -27,11 +26,11 @@ p{
   overflow-x: hidden;
   overflow-y: auto;
   padding-top: 20px;
+  background-color: #000000;
 }
 .sidenav a {
   padding: 6px 8px 6px 16px;
   font-size: 28px;
-  color: #FFFFFF;
   display: block;
   font-weight: bold;
 }
