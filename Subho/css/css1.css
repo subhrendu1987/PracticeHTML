@@ -33,9 +33,9 @@ p{
   font-size: 28px;
   display: block;
   font-weight: bold;
+  color: #ffffff;
 }
 .sidenav a:hover {
-  background-color: #FFFFFF;
   border-radius: 8px;
   color: #932954;
 }
