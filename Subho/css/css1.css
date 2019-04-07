@@ -34,6 +34,7 @@ p{
   display: block;
   font-weight: bold;
   color: #ffffff;
+  text-align: center;
 }
 .sidenav a:hover {
   border-radius: 8px;
