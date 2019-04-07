@@ -78,5 +78,6 @@ q{             /* name of papers in quotes; publications page*/
 {
 width: 100%;
 }
-
+#resume{
+  border-radius: 8px;
 /****************************************************************************************/
