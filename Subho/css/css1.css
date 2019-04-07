@@ -5,7 +5,8 @@ body{
   font-family: Century Gothic, sans-serif;
 }
 h1{
-  font-size: 25px;
+  font-size: 40px;
+  color:  #932954;
 }
 p{
   font-size: 20px;
@@ -19,18 +20,21 @@ p{
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
   overflow-x: hidden;
+  overflow-y: auto;
   padding-top: 20px;
 }
 .sidenav a {
   padding: 6px 8px 6px 16px;
-  font-size: 25px;
-  color: #818181;
+  font-size: 28px;
+  color: #FFFFFF;
   display: block;
+  font-weight: bold;
 }
 .sidenav a:hover {
-  color: #f1f1f1;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  color: #932954;
 }
 .sidenav img{     /*Subhrendu's Photo*/
   border-radius: 80px;
@@ -70,4 +74,8 @@ q{             /* name of papers in quotes; publications page*/
 #extLinks    /*external links in the 'others' page; it's a table*/
 {
 width: 100%;
+}
+/****************************************************************************************/
+.sidenav{
+  background-color: #932954;
 }
