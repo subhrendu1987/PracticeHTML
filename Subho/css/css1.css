@@ -86,6 +86,7 @@ q{             /* name of papers in quotes; publications page*/
 {
 width: 100%;
 font-weight: bold;
+background-color: #faebd7;
 }
 #extLinks a{
 color: #C80000;
