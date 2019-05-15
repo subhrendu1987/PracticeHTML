@@ -74,14 +74,6 @@ q{             /* name of papers in quotes; publications page*/
   font-weight: bold;
   font-size: 20px;
 }
-.fa-file-text:before {   /*pdf icon*/
-    font-size: 30px;
-    color: #000000;
-}
-.fas .fab{
-  font-size: 30px;
-  color: #000000;
-}
 #extLinks    /*external links in the 'others' page; it's a table*/
 {
 width: 100%;
@@ -90,10 +82,14 @@ background-color: #faebd7;
 }
 #extLinks a{
 font-weight: bold;
+color: #C80000;
 }
 #resume{
   color: #C80000;
   font-weight: bold;
   }
-
+  .fa, .fas, .fab, .iconify{
+    color: #000000;
+    font-size: 30px;
+  }
 /****************************************************************************************/
