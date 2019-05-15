@@ -87,8 +87,10 @@ q{             /* name of papers in quotes; publications page*/
 width: 100%;
 }
 #resume{
-  border-radius: 8px;
-width: 350px;
-text-align: center;}
+  border-radius: 75px;
+  width: 200px;
+  text-align: center;
+  color: #C80000;
+  }
 
 /****************************************************************************************/
