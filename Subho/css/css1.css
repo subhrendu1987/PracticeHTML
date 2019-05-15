@@ -67,6 +67,8 @@ p{
 }
 #collab a{     /* name of collaborators; publications page*/
   font-weight: bold;
+  color: #C80000;
+}
 }
 q{             /* name of papers in quotes; publications page*/
   font-weight: bold;
