@@ -74,6 +74,11 @@ q{             /* name of papers in quotes; publications page*/
 }
 .fa-file-text:before {   /*pdf icon*/
     font-size: 30px;
+    color: #000000;
+}
+.fas{
+  font-size: 30px;
+  color: #000000;
 }
 #extLinks    /*external links in the 'others' page; it's a table*/
 {
