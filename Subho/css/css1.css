@@ -85,6 +85,11 @@ q{             /* name of papers in quotes; publications page*/
 #extLinks    /*external links in the 'others' page; it's a table*/
 {
 width: 100%;
+font-weight: bold;
+}
+#extLinks a{
+color: #C80000;
+font-weight: bold;
 }
 #resume{
   color: #C80000;
