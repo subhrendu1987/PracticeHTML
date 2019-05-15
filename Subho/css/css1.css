@@ -84,6 +84,10 @@ background-color: #faebd7;
 font-weight: bold;
 color: #C80000;
 }
+#people a{
+  font-weight: bold;
+color: #C80000;
+}
 #resume{
   color: #C80000;
   font-weight: bold;
